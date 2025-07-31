@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	font-family: 'poppinsregular';
+	line-height: 24px;
+	font-size: 15px;
+	color: #242B54;
+	position: relative;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+	margin: 0px;
+}
+.head-two {
+	font-size: 40px;
+	font-family: 'poppinsmedium';
+}
+button,
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+}
+ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+ol{
+	margin-bottom: 0;
+}
+select:focus,
+select:active {
+    box-shadow: 0;
+    border: 0;
+    outline: 0
+}
+input:focus,
+input:active {
+    outline: none;
+}
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important
+}
+.navbar-brand{
+	color:#000;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+}
+.navbar .navbar-toggle {
+    border-color: #ddd;
+}
+.navbar .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar .navbar-toggle:focus, .navbar .navbar-toggle:hover {
+    background-color: #ddd;
+}

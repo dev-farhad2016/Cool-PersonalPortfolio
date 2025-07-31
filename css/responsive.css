@@ -1,0 +1,448 @@
+@media only screen and (min-width:1400px) {
+	.slider-img {
+		background: url(../images/slider-bg.png) no-repeat 110% 100%;
+	}
+}
+@media only screen and (max-width:1399px) {
+	.slider-img {
+		background: url(../images/slider-bg.png) no-repeat 210% 100%;
+	}
+}
+@media only screen and (max-width:1279px) {
+	.experience .carousel-indicators {
+		width: 80%;
+	}
+	.experience .carousel-indicators li::before {
+		width: 245px;
+	}
+	.experience .carousel-indicators li:last-child::before {
+		width: 80px;
+	}
+}
+@media only screen and (max-width:1199px) {
+	.menu li {
+		padding: 15px;
+	}
+	.slider-img {
+		background: url(../images/slider-bg.png) no-repeat 400% 100%;
+	}
+	.slider-overlay {
+		background: -moz-linear-gradient(-9deg, rgba(30,87,153,0) 0%,rgba(41,137,216,0) 50%,rgba(36,43,85,1) 50%,rgba(36,43,85,0.8) 100%);
+		background: -webkit-linear-gradient(-9deg, rgba(30,87,153,0) 0%,rgba(41,137,216,0) 50%,rgba(36,43,85,1) 50%,rgba(36,43,85,0.8) 100%);
+		background: linear-gradient(99deg, rgba(30,87,153,0) 0%,rgba(41,137,216,0) 50%,rgba(36,43,85,1) 50%,rgba(36,43,85,0.8) 100%);
+	}
+	.slider-content-right {
+		padding: 20px 10px 20px 0px;
+	}
+	.slider-text h2 {
+		margin: 20px 0px;
+	}
+	.slider-text a {
+		margin-top: 5px;
+	}
+	.top-head-before::before {
+		width: 161px;
+		left: 41%;
+	}
+	.top-head-before i {
+		left: 58%;
+	}
+	.experience-top-head .top-head-before::before {
+		width: 217px;
+		left: 38%;
+	}
+	.experience-top-head .top-head-before i {
+		left: 61%;
+	}
+	.experience .carousel-control {
+		margin-top: 25%;
+	}
+	.portfolio .top-head-before::before {
+		width: 161px;
+		left: 41%;
+	}
+	.portfolio-content-overlay {
+		margin-top: 37px;
+		padding-top: 25%;
+	}
+	.pricing-top-head .top-head-before::before {
+		width: 255px;
+		left: 36%;
+	}
+	.pricing-top-head .top-head-before i {
+		left: 63%;
+	}
+	.testimonial-top .top-head-before::before {
+		width: 105px;
+		left: 44%;
+	}
+	.blog-top .top-head-before::before {
+		width: 200px;
+		left: 39%;
+	}
+	.blog-top .top-head-before i {
+		left: 60%;
+	}
+	.blog-content .blog-comment {
+		margin-top: 300px;
+		width: 100px;
+	}
+	.blog-right p {
+		margin-top: 30px;
+	}
+	.blog-content .carousel-indicators {
+		bottom: 8%;
+	}
+	.blog-content .carousel-indicators li {
+		width: 32%;
+	}
+}
+@media only screen and (max-width:991px) {
+	.menu li {
+		padding: 20px 10px;
+	}
+	.menu li a {
+		font-size: 15px;
+	}
+	.navbar-brand {
+		font-size: 20px;
+	}
+	.navbar-brand i::before {
+		font-size: 20px;
+	}
+	.slider-img {
+		background: none;
+	}
+	.slider-content-left {
+	   padding-right: 0px;
+	}
+	.slider-content-right {
+		padding: 40px 35px 40px 35px;
+	}
+	.top-head-before::before {
+		width: 169px;
+		left: 38%;
+	}
+	.top-head-before i {
+		left: 61%;
+	}
+	.service-top-content {
+		margin-bottom: 40px;
+	}
+	.process-top-before {
+		bottom: 67px;
+	}
+	.process-top-icon {
+		margin-bottom: 60px;
+	}
+	.process-top-icon.last .process-top-before {
+		display: none;
+	}
+	.count {
+		margin-bottom: 50px;
+	}
+	.experience-top-head .top-head-before::before {
+		width: 225px;
+		left: 34%;
+	}
+	.experience-top-head .top-head-before i {
+		left: 65%;
+	}
+	.experience-slide-img {
+		height: 400px;
+	}
+	.experience-slide-img img {
+		width: 100%;
+		height: 100%;
+	}
+	.experience-slide-text {
+		padding: 40px 10px 0px 10px;
+	}
+	.experience .carousel-control {
+		margin-top: 50%;
+	}
+	.experience .carousel-indicators li::before {
+		width: 160px;
+	}
+	.experience .carousel-indicators li:last-child::before {
+		width: 60px;
+	}
+	.portfolio .top-head-before::before {
+		width: 165px;
+		left: 38%;
+	}
+	.pricing-top-head .top-head-before::before {
+		width: 265px;
+		left: 31%;
+	}
+	.pricing-top-head .top-head-before i {
+		left: 67%;
+	}
+	.pricing-content.marg {
+		margin-top: 0px;
+	}
+	.pricing-content {
+		margin-bottom: 60px;
+	}
+	.review-left-before::before {
+		width: 230px;
+		left: 50%;
+	}
+	.review-right {
+		padding-left: 160px;
+	}
+	.review-right h1 {
+		margin-left: 30px;
+		margin-bottom: 35px;
+	}
+	.review-right p {
+		padding: 0px 30px;
+	}
+	.review-right .fa-quote-right {
+		right: 1%;
+		bottom: 22%;
+	}
+	.review .owl-dots {
+		bottom: 15%;
+		right: 31%;
+	}
+	.review-left-before i {
+		left: 82%;
+	}
+	.testimonial-top .top-head-before::before {
+		width: 110px;
+		left: 42%;
+	}
+	.testimonial-top .top-head-before i {
+		left: 57%;
+	}
+	.testimonial-right {
+		padding-left: 0px;
+	}
+	.blog-top .top-head-before::before {
+		width: 210px;
+		left: 35%;
+	}
+	.blog-top .top-head-before i {
+		left: 64%;
+	}
+	.blog-content .blog-comment {
+		margin-top: 320px;
+		width: auto;
+	}
+	.blog-content .blog-right {
+		padding: 0px 50px 130px;
+	}
+	.blog-content .carousel-control {
+		margin-top: 72%;
+	}
+	.blog-content .carousel-indicators {
+		bottom: 0%;
+	}
+	.blog-left {
+		height: 600px;
+	}
+	.blog-left img {
+		height: 100%;
+	}
+}
+@media only screen and (max-width:767px) {
+	.navbar-fixed-bottom .navbar-collapse,
+	.navbar-fixed-top .navbar-collapse {
+		max-height: 100%;
+		background: #242B55;
+	}
+	.menu li a {
+		display: inline-block;
+		color: #fff;
+	}
+	.menubar nav {
+		padding: 20px 0px;
+	}
+	.slider-overlay {
+		padding-top: 100px;
+	}
+	.service-top-content {
+		width: 420px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.service-top-icon {
+		left: 42%;
+	}
+	.experience-slide-one {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.experience-slide-img {
+		height: auto;
+	}
+	.process-top-before {
+		display: none;
+	}
+	.head-two {
+		border-bottom: 1px solid #7DC843;
+		display: inline-block;
+	}
+	.top-head-before {
+		display: none;
+	}
+	.counterup-overlay {
+		padding-top: 85px;
+		padding-bottom: 40px;
+	}
+	.portfolio-content {
+		width: 415px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.portfolio-content-overlay {
+		margin-left: -3px;
+		margin-top: 42px;
+	}
+	.review-left-before {
+		display: none;
+	}
+	.review-left {
+		width: 100%;
+	}
+	.review-left-bg {
+		padding-left: 28%;
+	}
+	.review-left-over {
+		top: 4%;
+		left: 18%;
+	}
+	.review-right {
+		width: 100%;
+		padding-left: 0px;
+	}
+	.review-right i {
+		display: none;
+	}
+	.review .owl-dots {
+		bottom: -8%;
+		right: 45%;
+	}
+	.blog-left {
+		height: auto;
+	}
+	.blog-content .blog-comment {
+		margin-top: 0px;
+	}
+	.blog-content {
+		width: 415px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.blog-content .carousel-indicators {
+		left: 40%;
+		width: 60%;
+	}
+	.experience .carousel-indicators {
+		margin-left: 10%;
+	}
+	.blog-content .carousel-indicators li {
+		width: 28%;
+	}
+	.blog-content .carousel-control {
+		margin-top: 125%;
+	}
+	.experience .carousel-indicators li::before {
+		width: 150px;
+	}
+	.process-bottom-content ol {
+		margin-top: 20px;
+	}
+	.contact-top p {
+		margin-top: 30px;
+	}
+}
+@media only screen and (max-width:450px) {
+	.service-top-content {
+		width: 100%;
+	}
+	.experience .carousel-indicators {
+		width: 100%;
+		margin-left: 0%;
+	}
+	.experience .carousel-control {
+		margin-top: 70%;
+	}
+	.experience-slide-one {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.experience .carousel-indicators .active,
+	.experience .carousel-indicators li {
+		width: 20%;
+	}
+	.experience .carousel-indicators li::before {
+		width: 100px;
+	}
+	.experience .carousel-indicators li:last-child::before {
+		width: 45px;
+	}
+	.portfolio-content {
+		width: 100%;
+	}
+	.pricing-bottom {
+		padding: 0px 15px;
+	}
+	.review-left-bg {
+		padding-left: 18%;
+	}
+	.review-left-over {
+		top: 4%;
+		left: 0%;
+		width: 100%;
+	}
+	.blog-content {
+		width: 100%;
+	}
+	.contact-form i {
+		right: 9%;
+		top: 23%;
+	}
+	.contact-top a {
+		padding: 15px 20px;
+		border-radius: 25px;
+	}
+	.footer-content p {
+		float: none !important;
+	}
+	.footer-icon{
+		float: none !important;
+		margin-top: 20px;
+	}
+	.process-bottom ol li span {
+		margin-left: 0px;
+	}
+}
+@media only screen and (max-width:360px) {
+	.count span {
+		font-size: 40px;
+	}
+	.experience .carousel-indicators .active h4 {
+		font-size: 22px;
+		left: 0%;
+	}
+	.experience .carousel-indicators li h4 {
+		left: 0%;
+	}
+	.portfolio-content-overlay {
+		margin-left: 2px;
+		margin-top: 37px;
+	}
+	.review-left-bg {
+		padding-left: 12%;
+	}
+	.review-left-bg-color {
+		height: 415px;
+	}
+}
+@media only screen and (max-width:320px) {
+	.review-left-bg-color {
+		height: 390px;
+	}
+}

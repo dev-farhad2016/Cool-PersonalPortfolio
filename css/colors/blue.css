@@ -1,0 +1,152 @@
+.navbar-brand {
+	color: #fff;
+}
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: #fff;
+}
+.navbar-brand i::before {
+    color: #fff;
+}
+.menu li a {
+    color: #fff;
+}
+.menu li a:hover::before {
+    color: #fff;
+}
+.menu li a:hover {
+    border-bottom: 1px solid #fff;
+}
+.menu > .active > a,
+.menu > .active > a:focus,
+.menu .active > a:hover {
+	border-bottom: 1px solid #fff;
+}
+.menu .active a::before,
+.menu .active a:hover::before,
+.menu .active a:focus::before {
+	color: #fff;
+}
+.sticky {
+    background: #222637;
+}
+.slider {
+	background: #5BADE9;
+}
+.slider-overlay {
+    background: rgb(30,28,42);
+    background: -moz-linear-gradient(-9deg, rgba(30,28,42,0) 0%,rgba(30,28,42,0) 54%,rgba(30,28,42,1) 54%,rgba(30,28,42,0.8) 100%);
+    background: -webkit-linear-gradient(-9deg, rgba(30,28,42,0) 0%,rgba(30,28,42,0) 54%,rgba(30,28,42,1) 54%,rgba(30,28,42,0.8) 100%);
+    background: linear-gradient(99deg, rgba(30,28,42,0) 0%,rgba(30,28,42,0) 54%,rgba(30,28,42,1) 54%,rgba(30,28,42,0.8) 100%);
+}
+.slider-text ul li i {
+	background: #5D8DD5;
+}
+.slider-text a {
+	background: #5D8DD5;
+}
+.slider-text a:hover {
+    background: #273145;
+}
+.top-head-before::before {
+    border-top: 1px solid #5D8DD5;
+}
+.top-head-before i {
+	color: #5D8DD5;
+}
+.service-top-content i {
+	color: #5D8DD5;
+}
+.service-bottom-web {
+	background: #5D8DD5;
+}
+.service-top-icon i {
+	background: #273145;
+}
+.service-bottom-content ul li i {
+	background: #5D8DD5;
+}
+.process-top-icon i {
+	background: #273145;
+}
+.process-top-icon i:hover {
+	background: #5D8DD5;
+}
+.process-top-before i {
+	background: none;
+}
+.counterup-overlay {
+    background: rgb(35,42,84);
+    background: -moz-linear-gradient(top,rgba(35,42,84,0.9) 0%,rgba(36,43,85,.8) 42%,rgba(41,47,95,0.8) 82%,rgba(41,47,95,0.7) 100%);
+    background: -webkit-linear-gradient(top, rgba(35,42,84,0.9) 0%,rgba(36,43,85,.8) 42%,rgba(41,47,95,0.8) 82%,rgba(41,47,95,0.7) 100%);
+    background: linear-gradient(to bottom, rgba(34,38,55,0.9) 0%,rgba(34,38,55,.8) 42%,rgba(34,38,55,0.8) 82%,rgba(34,38,55,0.7) 100%);
+}
+.experience .carousel-indicators .active {
+	color: #5D8DD5;
+}
+.experience .carousel-control:hover {
+    color: #5D8DD5;
+}
+.portfolio-content-overlay {
+	background: rgba(34,38,55,0.7);
+}
+.pricing-content button {
+	background: #222637;
+}
+.pricing-content button:hover {
+	background: #5D8DD5;
+}
+.pricing-content-icon i {
+	background: #5D8DD5;
+}
+.review {
+	background: #273248;
+}
+.review-left-over {
+	background: #222637;
+}
+.review-left-before::before {
+	border-top: 1px solid #222637;
+}
+.review-left-before i {
+	color: #222637;
+}
+.review-left-bg-color {
+    background:#252A38;
+}
+.testimonial-left .panel-heading.active,
+.testimonial-left .panel-heading:focus,
+.testimonial-left .panel-heading:hover {
+	background: #222637;
+}
+.testimonial-left-para a {
+	background: #5D8DD5;
+}
+.testimonial-left-para a:hover {
+	background: #222637;
+}
+.contact{
+	background: #273248;
+}
+.contact-bottom button {
+	background: #5475BC;
+}
+.contact-top .top-head-before::before {
+    border-top: 1px solid #222637;
+}
+.contact-top .top-head-before i {
+    color: #222637;
+}
+.contact-top a {
+	background: #222637;
+}
+.contact-bottom .form-group,
+.contact-bottom .form-group-textarea {
+	border: 1px solid #222637;
+}
+.footer {
+	background: #222637;
+}
+.scrollToTop {
+	background: #222637;
+}
